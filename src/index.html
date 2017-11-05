@@ -10,5 +10,20 @@
 </head>
 <body>
   <app-root>Loading...</app-root>
+  
+  <!--firebase-->
+  <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCYR1i_oKR2RdnZlZu37fD4WSzCoSEBP-8",
+      authDomain: "ninja-angulr.firebaseapp.com",
+      databaseURL: "https://ninja-angulr.firebaseio.com",
+      projectId: "ninja-angulr",
+      storageBucket: "ninja-angulr.appspot.com",
+      messagingSenderId: "231154971701"
+    };
+    firebase.initializeApp(config);
+  </script>
 </body>
 </html>
